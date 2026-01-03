@@ -1,4 +1,5 @@
-#define SPEAKER_FREQUENCY 3200
+//#define SPEAKER_FREQUENCY 3200 //maximum volume by datasheet on this speaker
+#define SPEAKER_FREQUENCY 6000 
 #define SPEAKER_REF_PIN 6 //D4
 #define SPEAKER_PIN 4 //D6
 #define BTN_REF_PIN 8 //D8
