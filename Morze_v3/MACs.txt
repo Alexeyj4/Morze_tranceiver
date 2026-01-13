@@ -1,0 +1,7 @@
+transceiver 1:
+
+64:E8:33:B5:97:48
+
+transceiver 2:
+
+64:E8:33:B6:BD:DC
