@@ -1,13 +1,14 @@
 #include <Esp_now_j4.h>
 
 //#define SPEAKER_FREQUENCY 3200 //maximum volume by datasheet on this speaker
-#define SPEAKER_FREQUENCY 6000 
+#define SPEAKER_FREQUENCY 3200 
 #define SPEAKER_REF_PIN 6 //D4
 #define SPEAKER_PIN 4 //D6
 #define BTN_REF_PIN 8 //D8
 #define BTN_IN_PIN 10 //D10
 #define TRANCEIVE_PAUSE 10
 
+//comment string which transceiver you going to fw:
 uint8_t MAC[] = {0x64, 0xE8, 0x33, 0xB5, 0x97, 0x48}; //transceiver 1
 //uint8_t MAC[] = {0x64, 0xE8, 0x33, 0xB6, 0xBD, 0xDC}; //transceiver 2
 
